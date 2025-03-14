@@ -3,7 +3,7 @@ name: Complie and deploy
 on:
   workflow_dispatch:
 env:
-  DOTNET_VERSION: 8.0x
+  DOTNET_VERSION: 8.0.x
 jobs:
     build:
       runs-on: ubuntu-latest
